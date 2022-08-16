@@ -90,7 +90,7 @@
                 <div>
                   <h3 x-text="pizza.flavour"></h3>
                 </div>
-                <img x-bind:src=" pizzaImage(pizza)" alt="" width="50">
+                <img x-bind:src=" pizzaImage(pizza)" alt="" width="125">
                 <div x-text="pizza.size"></div>
                 <div>
                   <h3 x-text="pizza.price"></h3>
@@ -106,7 +106,7 @@
             <table class="yoursfaithfully">
                 <template x-for="pizza in pizzas">
                     <tr>
-                        <td><img x-bind:src=" pizzaImage(pizza)" alt="" width="50"></td>
+                        <td><img x-bind:src=" pizzaImage(pizza)" alt="" width="125"></td>
                         <td x-text="pizza.flavour"></td>
                         <td x-text="pizza.size"></td>
                         <td x-text="pizza.price"></td>
